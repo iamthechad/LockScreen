@@ -7,6 +7,7 @@
 //
 
 #import "MTViewController.h"
+#import "MTLockViewController.h"
 
 @interface MTViewController ()
 
@@ -14,21 +15,32 @@
 
 @implementation MTViewController
 
+@synthesize lockController;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    lockController = [[MTLockViewController alloc] initWithNibName:@"MTLVViewController" bundle:nil];
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (void) removeOverlay: (UIView *) overlayView
+{
+    [overlayView removeFromSuperview];
+}
+
+- (IBAction)lockScreen:(id)sender
+{
+    [self.view addSubview:lockController.view];
 }
 
 @end

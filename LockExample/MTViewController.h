@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MTLockViewController.h"
 
 @interface MTViewController : UIViewController
+
+@property (strong, nonatomic) MTLockViewController *lockController;
+- (IBAction)lockScreen:(id)sender;
 
 @end
