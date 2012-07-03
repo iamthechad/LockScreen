@@ -15,6 +15,7 @@
 		6306E0BE157FFB020047CFC8 /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6306E0BD157FFB020047CFC8 /* MTAppDelegate.m */; };
 		6306E0C1157FFB020047CFC8 /* MTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6306E0C0157FFB020047CFC8 /* MTViewController.m */; };
 		6306E0C4157FFB020047CFC8 /* MTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6306E0C2157FFB020047CFC8 /* MTViewController.xib */; };
+		6306E0C9157FFB020047CFCA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6306E0C9157FFB020047CFC9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		6306E0BF157FFB020047CFC8 /* MTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTViewController.h; sourceTree = "<group>"; };
 		6306E0C0157FFB020047CFC8 /* MTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTViewController.m; sourceTree = "<group>"; };
 		6306E0C3157FFB020047CFC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MTViewController.xib; sourceTree = "<group>"; };
+		6306E0C9157FFB020047CFC9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		6306E09E157FFB010047CFC8 = {
 			isa = PBXGroup;
 			children = (
+				6306E0C9157FFB020047CFC9 /* README.md */,
 				6306E0B3157FFB020047CFC8 /* LockExample */,
 				6306E0AC157FFB020047CFC8 /* Frameworks */,
 				6306E0AA157FFB020047CFC8 /* Products */,
@@ -152,6 +155,7 @@
 			files = (
 				6306E0B8157FFB020047CFC8 /* InfoPlist.strings in Resources */,
 				6306E0C4157FFB020047CFC8 /* MTViewController.xib in Resources */,
+				6306E0C9157FFB020047CFCA /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
