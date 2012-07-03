@@ -15,8 +15,6 @@
 		6306E0BE157FFB020047CFC8 /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6306E0BD157FFB020047CFC8 /* MTAppDelegate.m */; };
 		6306E0C1157FFB020047CFC8 /* MTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6306E0C0157FFB020047CFC8 /* MTViewController.m */; };
 		6306E0C4157FFB020047CFC8 /* MTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6306E0C2157FFB020047CFC8 /* MTViewController.xib */; };
-		6306E0E0158011270047CFC8 /* MTLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6306E0DE158011270047CFC8 /* MTLockViewController.m */; };
-		6306E0E1158011270047CFC8 /* MTLockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6306E0DF158011270047CFC8 /* MTLockViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +31,6 @@
 		6306E0BF157FFB020047CFC8 /* MTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTViewController.h; sourceTree = "<group>"; };
 		6306E0C0157FFB020047CFC8 /* MTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTViewController.m; sourceTree = "<group>"; };
 		6306E0C3157FFB020047CFC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MTViewController.xib; sourceTree = "<group>"; };
-		6306E0DD158011270047CFC8 /* MTLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = MTLockViewController.h; sourceTree = "<group>"; };
-		6306E0DE158011270047CFC8 /* MTLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLockViewController.m; sourceTree = "<group>"; };
-		6306E0DF158011270047CFC8 /* MTLockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTLockViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +83,6 @@
 				6306E0C0157FFB020047CFC8 /* MTViewController.m */,
 				6306E0C2157FFB020047CFC8 /* MTViewController.xib */,
 				6306E0B4157FFB020047CFC8 /* Supporting Files */,
-				6306E0DD158011270047CFC8 /* MTLockViewController.h */,
-				6306E0DE158011270047CFC8 /* MTLockViewController.m */,
-				6306E0DF158011270047CFC8 /* MTLockViewController.xib */,
 			);
 			path = LockExample;
 			sourceTree = "<group>";
@@ -160,7 +152,6 @@
 			files = (
 				6306E0B8157FFB020047CFC8 /* InfoPlist.strings in Resources */,
 				6306E0C4157FFB020047CFC8 /* MTViewController.xib in Resources */,
-				6306E0E1158011270047CFC8 /* MTLockViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +165,6 @@
 				6306E0BA157FFB020047CFC8 /* main.m in Sources */,
 				6306E0BE157FFB020047CFC8 /* MTAppDelegate.m in Sources */,
 				6306E0C1157FFB020047CFC8 /* MTViewController.m in Sources */,
-				6306E0E0158011270047CFC8 /* MTLockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

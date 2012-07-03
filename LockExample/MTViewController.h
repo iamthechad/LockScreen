@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MTLockViewController.h"
 
 @interface MTViewController : UIViewController
 
-@property (strong, nonatomic) MTLockViewController *lockController;
+@property (strong, nonatomic) IBOutlet UIView *lockScreenView;
+@property (strong, nonatomic) IBOutlet UISlider *lockScreenSlider;
+
 - (IBAction)lockScreen:(id)sender;
+- (IBAction)unlockSlider:(id)sender;
+
 
 @end
